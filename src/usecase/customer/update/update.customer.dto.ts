@@ -1,21 +1,10 @@
 export interface InputUpdateCustomerDto {
-    id: string;
-    name: string;
-    address: {
-        street: string;
-        number: number;
-        zip: string;
-        city: string;
-    };  
-}
-
-export interface OutputUpdateCustomerDto {
-    id: string;
-    name: string;
-    address: {
-        street: string;
-        number: number;
-        zip: string;
-        city: string;
-    };  
+  id: string;
+  name: string;
+  addrress: {
+    street: string;
+    city: string;
+    number: number;
+    zip: string
+  }
 }
